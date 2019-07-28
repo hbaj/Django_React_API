@@ -114,3 +114,7 @@ GitHub.sublime-settings
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history
+# React - Webpack django
+!node_modules/
+package-lock.json
+node_modules

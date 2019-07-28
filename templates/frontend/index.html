@@ -1,14 +1,15 @@
-{% load render_bundel from webpack _loader%}
+{% load render_bundle from webpack_loader %}
 <!DOCTYPE html>
 <html>
-<head
-<meta charset = "UTF-8">
-<title>Django React Webpack</title>
-{% render_bundle 'main' 'css'%}
+<head>
+    <meta charset="UTF-8">
+    <title>Django React Webpack</title>
+    <!-- Webpack rendered CSS -->
+    {% render_bundle 'main' 'css' %}
 </head>
 <body>
-<div id= "react-app"></div>
-{%render_bundle 'main' 'js'%}
+    <div id="react-app"></div>
+    <!-- Webpack rendered JS -->
+    {% render_bundle 'main' 'js' %}
 </body>
-
 </html>
