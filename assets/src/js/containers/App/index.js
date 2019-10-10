@@ -2,7 +2,7 @@ import React from 'react';
 import Title from '../../components/Title';
 class App extends React.Component {
   render () {
-    const text = 'Django + React + Webpack + Babel = Awesome App';
+    const text = 'Django + React + Webpack + Babel = Awesome App from hbaj for the beebwolf';
     return (
       <Title text={text} />
     )
